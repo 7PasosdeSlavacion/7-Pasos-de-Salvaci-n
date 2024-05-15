@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+  box-sizing: border-box;
+  transition: all 0.5s;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Bebas Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: block;
+}
+
+.fondo {
+  background-color: #352e7d;
+  height: 800px;
+  width: 96%;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: inline-flex;
+}
+
+/*Navegador*/
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+}
+
+.navbar .separador {
+  margin-left: 100px;
+  display: flex;
+}
+
+.navbar .separador .regresar {
+  margin-right: 35px;
+  display: flex;
+  background-color: #353434;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.navbar .separador .label {
+  margin-right: 35px;
+  display: flex;
+  background-color: #292727e1;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-size: 17px;
+  align-items: center;
+}
+
+.cuenta {
+  margin-right: 100px;
+  background-color: #3d1f02;
+  padding: 5px 10px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+/*Encabezado de Preguntas*/
+
+.contenedor {
+  height: 800px;
+  width: 96%;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  padding: 10px 5px;
+}
+
+.block {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contenedor .encabezado .flex img {
+  width: 500px;
+  border-radius: 20px;
+}
+
+.contenedor .encabezado .flex .block .pregunta {
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.contenedor .encabezado .flex .block .flex .btn {
+  margin-top: 100px;
+  margin-left: 330px;
+  background-color: #ff8800;
+  width: 120px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.contenedor .encabezado .flex .block .flex .btn-2 {
+  margin-top: 100px;
+  margin-left: 5px;
+  background-color: #ff8800;
+  width: 120px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/*Texto y Botones de la WEB*/
+
+.btns {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.btns .btn {
+  background-color: #ff8800;
+  padding: 10px;
+  margin: 10px;
+  width: 650px;
+  height: 350px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+/*Respaldo Bilico*/
+
+.texto {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 999;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto .button {
+  background-color: #cf6f00;
+  width: 100px;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px 100px;
+  cursor: pointer;
+}
+
+.texto .verse-new {
+  background-color: #cf6f00;
+  width: 100px;
+  text-align: center;
+  margin-right: 100px;
+  padding: 5px 100px;
+}
+
+.texto .cita-biblica {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.texto .verse {
+  font-size: 40px;
+  padding: 10px;
+}
+
+/*Video de Repaso*/
+
+#videoContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: move;
+  z-index: 1000;
+}
+
+@media (max-width: 800px) {
+  .navbar .separador .regresar {
+    font-size: 30px;
+  }
+
+  .navbar .separador .label {
+    font-size: 16px;
+  }
+
+  .navbar {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .navbar .separador .label {
+    margin-right: 50px;
+  }
+  .navbar .cuenta {
+    margin-right: 100px;
+  }
+
+  .navbar .separador .regresar {
+    align-items: center;
+  }
+
+  .navbar .separador {
+    margin-left: 70px;
+  }
+
+  .fondo {
+    height: 700px;
+  }
+
+  /*Preguntas*/
+  .fondo .contenedor .encabezado .flex img {
+    width: 100px;
+    display: none;
+  }
+
+  #videoContainer #youtubeVideo {
+    width: 300px;
+    height: 200px;
+  }
+
+  .fondo .btns {
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .fondo .btns .btn {
+    height: 60px;
+    width: 330px;
+    font-size: 20px;
+  }
+
+  .fondo .contenedor .encabezado .flex .block .flex .btn {
+    margin-left: 40px;
+  }
+}
