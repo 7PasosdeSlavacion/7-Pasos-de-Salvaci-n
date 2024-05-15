@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+  box-sizing: border-box;
+  transition: all 0.5s;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Bebas Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: block;
+}
+
+.fondo {
+  background-color: #352e7d;
+  height: 800px;
+  width: 90%;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: inline-flex;
+}
+
+/*Clase Flex*/
+.flex {
+  display: flex;
+  padding: 0 10px;
+}
+
+.flex .img img {
+  width: 400px;
+}
+
+.flex .logo {
+}
+
+/*Informacion*/
+
+.info {
+  padding: 0 10px;
+}
+
+.info span {
+  font-size: 30px;
+}
+
+#h1 {
+  font-size: 100px;
+}
+
+.info a {
+  font-size: 25px;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+
+.info a:hover {
+  padding: 5px 40px;
+}
+
+/*Navegador*/
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+}
+
+.navbar .separador {
+  margin-left: 100px;
+  display: flex;
+}
+
+.navbar .separador .regresar {
+  margin-right: 35px;
+  display: flex;
+  background-color: #353434;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.navbar .separador .label {
+  margin-right: 35px;
+  display: flex;
+  background-color: #292727e1;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-size: 17px;
+  align-items: center;
+}
+
+.cuenta {
+  margin-right: 100px;
+  background-color: #3d1f02;
+  padding: 5px 10px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+/*Estilos Checkbox*/
+
+.check-box {
+  margin-bottom: 15px;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 5px;
+  margin-right: 10px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+  background-color: rgb(255, 166, 0);
+}
+
+/*Mi Alerta*/
+
+.alerta {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 20px;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.cerrar {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.contenido {
+  margin-top: 50px;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .navbar .separador .regresar {
+    font-size: 30px;
+  }
+
+  .navbar .separador .label {
+    font-size: 14px;
+  }
+
+  .fondo {
+    display: block;
+    margin-left: 20px;
+  }
+
+  .flex {
+    display: block;
+  }
+
+  .flex .img img {
+    width: 250px;
+  }
+
+  .flex .logo img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .navbar {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .navbar .separador .label {
+    margin-right: 50px;
+  }
+  .navbar .cuenta {
+    margin-right: 100px;
+  }
+
+  .navbar .separador .regresar {
+    align-items: center;
+  }
+
+  .navbar .separador {
+    margin-left: 70px;
+  }
+
+  .fondo {
+    height: 700px;
+  }
+
+  #h1 {
+    font-size: 80px;
+  }
+}
