@@ -1,0 +1,140 @@
+<!--Estructura HTML-->
+<!DOCTYPE html>
+<html lang="es">
+
+<!--Datos Invicibles de la WEB-->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/funciones.css" />
+
+    <title> Pasos de Salvación</title>
+    <link rel="icon" href="/img/Logo_Web.png">
+</head>
+<!------------------------------>
+
+<!--Cuerpo de la WEB-->
+
+<body class="body">
+
+    <!--Navegador-->
+    <header class="header">
+        <div class="logo"><a href="index.html"><img src="img/Logo_Pasos_Navbar.png" alt="Logo" /></a></div>
+        <input type="checkbox" id="menu">
+        <label for="menu">
+            <img src="img/Logo Menu.png" class="menu-icono" alt="Menu" height="20px">
+        </label>
+        <div class="navbar">
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="7pasos.html">7 Pasos</a></li>
+                <li><a href="recursos.html">Recursos</a></li>
+                <li><a href="certificado.html">Certificado</a></li>
+                <li><button class="btnLogin">Login</button></li>
+                <li><button class="btnCuenta hidden" onclick="enviar('cuenta')">Cuenta</button></li>
+            </ul>
+        </div>
+    </header>
+    <!------------->
+
+    <!--Principal-->
+    <div class="fondo">
+
+        <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+
+        <!--Mi Alerta-->
+        <div class="alerta" id="alerta">
+            <span class="cerrar" onclick="cerrarAlerta()">&times;</span>
+            <p>Debes aceptar los términos y condiciones</p>
+        </div>
+        <!------------->
+
+        <div id="forgotPasswordModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <form id="forgotPasswordForm">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" required><br>
+                    <button type="submit">Enviar</button>
+                </form>
+                <span id="retrievedPassword"></span>
+            </div>
+        </div>
+
+        <div class="formulario login">
+            <h2>Login</h2>
+            <form action="#" id="loginForm">
+                <div class="input">
+                    <span class="icono"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" id="email-login" required />
+                    <label>Email</label>
+                </div>
+                <div class="input">
+                    <span class="icono"><ion-icon name="key"></ion-icon></span>
+                    <input type="password" id="password-login" required />
+                    <label>Contraseña</label>
+                </div>
+                <div class="recordar-pass">
+                    <label><input type="checkbox"> Recordar Contraseña</label>
+                    <a href="/pass.html" id="forgotPasswordLink">¿Olvide mi contraseña?</a>
+                </div>
+                <button type="submit" class="boton">Iniciar Secion</button>
+
+                <div class="login-registro">
+                    <p>¿No tengo una cuenta? <a href="#" class="registro-link">Registrarse</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="formulario registro">
+
+            <h2>Registrarse</h2>
+            <form action="#" id="signupForm">
+                <div class="input">
+                    <span class="icono"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" id="user-signup" required />
+                    <label>Nombre</label>
+                </div>
+                <div class="input">
+                    <span class="icono"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" id="email-signup" required />
+                    <label>Email</label>
+                </div>
+                <div class="input">
+                    <span class="icono"><ion-icon name="key"></ion-icon></span>
+                    <input type="password" id="password-signup" required />
+                    <label>Contraseña</label>
+                </div>
+                <div class="recordar-pass">
+                    <label><input type="checkbox" id="checkbox-signup">Estoy de Acuerdo con los terminos y
+                        condiciones</label>
+                </div>
+
+                <button type="submit" class="boton" onclick="mostrarAlerta()">Registrarse</button>
+
+                <div class="login-registro">
+                    <p>¿Ya tengo una cuenta? <a href="#" class="login-link">Iniciar Secion</a></p>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <!-------------->
+
+    <!--Scripts-->
+    <script src="js/js.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/signup.js"></script>
+    <script src="js/acciones.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!----------->
+
+</body>
+<!------------------->
+
+</html>
+<!------------------>

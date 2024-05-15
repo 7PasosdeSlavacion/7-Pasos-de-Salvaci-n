@@ -1,0 +1,266 @@
+<!--Estructura HTML-->
+<!DOCTYPE html>
+<html lang="es">
+
+<!--Datos Invicibles de la WEB-->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/7pasos.css" />
+    <link rel="stylesheet" href="css/funciones.css" />
+
+    <title> Pasos de Salvación - Pasos</title>
+    <link rel="icon" href="/img/Logo_Web.png">
+</head>
+<!----------------------------->
+
+<!--Cuerpo de la WEB-->
+
+<body class="body">
+
+    <header class="header">
+        <div class="logo"><a href="index.html"><img src="img/Logo_Pasos_Navbar.png" alt="Logo" /></a></div>
+        <input type="checkbox" id="menu">
+        <label for="menu">
+            <img src="img/Logo Menu.png" class="menu-icono" alt="Menu" height="20px">
+        </label>
+        <div class="navbar">
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="7pasos.html">7 Pasos</a></li>
+                <li><a href="recursos.html">Recursos</a></li>
+                <li><a href="certificado.html">Certificado</a></li>
+                <li><button class="btnLogin" onclick="enviar('login')">Login</button></li>
+                <li><button class="btnCuenta hidden" onclick="enviar('cuenta')">Cuenta</button></li>
+            </ul>
+        </div>
+    </header>
+
+    <!--<div class="fondo">
+
+        <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+
+        <div class="formulario login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input">
+                    <span class="icono"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required />
+                    <label>Email</label>
+                </div>
+                <div class="input">
+                    <span class="icono"><ion-icon name="key"></ion-icon></span>
+                    <input type="password" required />
+                    <label>Contraseña</label>
+                </div>
+                <div class="recordar-pass">
+                    <label><input type="checkbox"> Recordar Contraseña</label>
+                    <a href="#">¿Olvide mi contraseña?</a>
+                </div>
+                <button type="submit" class="boton">Iniciar Secion</button>
+
+                <div class="login-registro">
+                    <p>¿No tengo una cuenta? <a href="#" class="registro-link">Registrarse</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="formulario registro">
+            <h2>Registrarse</h2>
+            <form action="#">
+                <div class="input">
+                    <span class="icono"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" required />
+                    <label>Nombre</label>
+                </div>
+                <div class="input">
+                    <span class="icono"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required />
+                    <label>Email</label>
+                </div>
+                <div class="input">
+                    <span class="icono"><ion-icon name="key"></ion-icon></span>
+                    <input type="password" required />
+                    <label>Contraseña</label>
+                </div>
+                <div class="recordar-pass">
+                    <label><input type="checkbox">Estoy de Acuerdo con los terminos y condiciones</label>
+                </div>
+                <button type="submit" class="boton">Registrarse</button>
+
+                <div class="login-registro">
+                    <p>¿Ya tengo una cuenta? <a href="#" class="login-link">Iniciar Secion</a></p>
+                </div>
+            </form>
+        </div>
+
+    </div>-->
+
+
+    <div class="inicio activo-popup">
+
+        <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+
+        <div class="separador paso1" id="paso1">
+
+            <div class="img">
+                <img src="img/img_Paso_1.jpg" alt="Logo">
+               <!--- <img src="img/Fondo_Jesus_1.jpg" alt="Logo"> -->
+            </div>
+
+            <div class=" info-inicio">
+                <span>Ver a Jesús</span>
+                <h1>Paso 1</h1>
+                <p>DECIDO VER A JESÚS EN LA CRUZ DEL CALVARIO, MURIENDO POR EL PERDÓN DE MIS PECADOS.</p>
+                <br>
+                <a href="Paso-1/html/index.html" class="make-exam">Estudiemos</a>
+            </div>
+
+            <div class="flex">
+                <button onclick="retroceder()"><ion-icon name="caret-back"></ion-icon></button>
+                <button onclick="avanzar()"><ion-icon name="caret-forward"></ion-icon></button>
+            </div>
+        </div>
+
+        <div class="separador paso2 desactivo" id="paso2">
+
+            <div class="img">
+                <img src="img/img_Paso_2.jpg" alt="Logo">
+            </div>
+
+            <div class=" info-inicio">
+                <span>Verse a uno Mismo</span>
+                <h1>Paso 2</h1>
+                <p>DECIDO VERME A MÍ MISMO EN LOS OJOS DE DIOS, PARA RECONOCER QUE SOY UN PECADOR.</p>
+                <br>
+                <a href="Paso-2/html/index.html" class="make-exam">Estudiemos</a>
+            </div>
+
+            <div class="flex">
+                <button onclick="retroceder()"><ion-icon name="caret-back"></ion-icon></button>
+                <button onclick="avanzar()"><ion-icon name="caret-forward"></ion-icon></button>
+            </div>
+
+        </div>
+
+        <div class="separador paso3 desactivo" id="paso3">
+
+            <div class="img">
+                <img src="img/img_Paso_3.jpg" alt="Logo">
+            </div>
+
+            <div class=" info-inicio">
+                <span>Creer en Jesús</span>
+                <h1>Paso 3</h1>
+                <p>DECIDO CREER EN JESÚS Y ACEPTO QUE SU MUERTE FUE MI MUERTE A FIN DE VIVIR SU VIDA PARA SIEMPRE.</p>
+                <br>
+                <a href="Paso-3/html/index.html" class="make-exam">Estudiemos</a>
+            </div>
+
+            <div class="flex">
+                <button onclick="retroceder()"><ion-icon name="caret-back"></ion-icon></button>
+                <button onclick="avanzar()"><ion-icon name="caret-forward"></ion-icon></button>
+            </div>
+
+        </div>
+
+        <div class="separador paso4 desactivo" id="paso4">
+
+            <div class="img">
+                <img src="img/img_Paso_4.jpg" alt="Logo">
+            </div>
+
+            <div class=" info-inicio">
+                <span>ARREPENTIRSE</span>
+                <h1>Paso 4</h1>
+                <p>DECIDO ARREPENTIRME COMO PEDRO SE ARREPINTIÓ DE SU VIDA PASADA.</p>
+                <br>
+                <a href="Paso-4/html/index.html" class="make-exam">Estudiemos</a>
+            </div>
+
+            <div class="flex">
+                <button onclick="retroceder()"><ion-icon name="caret-back"></ion-icon></button>
+                <button onclick="avanzar()"><ion-icon name="caret-forward"></ion-icon></button>
+            </div>
+
+        </div>
+
+        <div class="separador paso5 desactivo" id="paso5">
+
+            <div class="img">
+                <img src="img/img_Paso_5.jpg" alt="Logo">
+            </div>
+
+            <div class=" info-inicio">
+                <span>LA CONFESIÓN</span>
+                <h1>Paso 5</h1>
+                <p>DECIDO CONFESAR LOS PECADOS PARA ALCANZAR EL PERDÓN POR LA MISERICORDIA DE DIOS EN MI VIDA.</p>
+                <br>
+                <a href="Paso-5/html/index.html" class="make-exam">Estudiemos</a>
+            </div>
+
+            <div class="flex">
+                <button onclick="retroceder()"><ion-icon name="caret-back"></ion-icon></button>
+                <button onclick="avanzar()"><ion-icon name="caret-forward"></ion-icon></button>
+            </div>
+
+        </div>
+
+        <div class="separador paso6 desactivo" id="paso6">
+
+            <div class="img">
+                <img src="img/img_Paso_6.jpg" alt="Logo">
+            </div>
+
+            <div class=" info-inicio">
+                <span>SEGUIR SU EJEMPLO "BAUTIZARME"</span>
+                <h1>Paso 6</h1>
+                <p>DECIDO ENTRAR A LAS AGUAS DEL BAUTISMO COMO CRISTO LO HIZO; PARA PODER VER Y PODER ENTRAR EN EL REINO DE DIOS.</p>
+                <br>
+                <a href="Paso-6/html/index.html" class="make-exam">Estudiemos</a>
+            </div>
+
+            <div class="flex">
+                <button onclick="retroceder()"><ion-icon name="caret-back"></ion-icon></button>
+                <button onclick="avanzar()"><ion-icon name="caret-forward"></ion-icon></button>
+            </div>
+
+        </div>
+
+        <div class="separador paso7 desactivo" id="paso7">
+
+            <div class="img">
+                <img src="img/img_Paso_7.jpg" alt="Logo">
+            </div>
+
+            <div class=" info-inicio">
+                <span>UNIRME A SU IGLESIA</span>
+                <h1>Paso 7</h1>
+                <p>DECIDO UNIRME A LA IGLESIA DE CRISTO, LA QUE GUARDA LOS MANDAMIENTOS DE DIOS Y TIENE EL TESTIMONIO DE JESUCRISTO.</p>
+                <br>
+                <a href="Paso-7/html/index.html" class="make-exam">Estudiemos</a>
+            </div>
+
+            <div class="flex">
+                <button onclick="retroceder()"><ion-icon name="caret-back"></ion-icon></button>
+                <button onclick="avanzar()"><ion-icon name="caret-forward"></ion-icon></button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="js/7pasos.js"></script>
+    <script src="js/acciones.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+<!------------------->
+
+</html>
+<!------------------>

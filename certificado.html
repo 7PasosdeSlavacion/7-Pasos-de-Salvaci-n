@@ -1,0 +1,108 @@
+<!--Estructura HTML-->
+<!DOCTYPE html>
+<html lang="es">
+
+<!--Datos Invicibles de la WEB-->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/certificado.css" />
+    <link rel="stylesheet" href="css/funciones.css" />
+
+    <title> Pasos de Salvación</title>
+    <link rel="icon" href="/img/Logo_Web.png">
+</head>
+<!------------------------------>
+
+<!--Cuerpo de la WEB-->
+
+<body class="body">
+
+    <!--Navegador-->
+    <header class="header">
+        <div class="logo"><a href="index.html"><img src="img/Logo_Pasos_Navbar.png" alt="Logo" /></a></div>
+        <input type="checkbox" id="menu">
+        <label for="menu">
+            <img src="img/Logo Menu.png" class="menu-icono" alt="Menu" height="20px">
+        </label>
+        <div class="navbar">
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="7pasos.html">7 Pasos</a></li>
+                <li><a href="recursos.html">Recursos</a></li>
+                <li><a href="certificado.html">Certificado</a></li>
+                <li><button class="btnLogin">Login</button></li>
+                <li><button class="btnCuenta hidden" onclick="enviar('cuenta')">Cuenta</button></li>
+            </ul>
+        </div>
+    </header>
+    <!------------->
+
+    <!--Principal-->
+    <div class="certificado">
+
+        <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+
+        <div class="formulario login error" id="errorCertificado">
+            <h2>OPSS</h2>
+            <p>Para crear tu certifiado Primero debes terminar con todos los pasos de los 7 pasos de Salvación. <a
+                    href="/7pasos.html">Continuar</a></p>
+        </div>
+
+        <div class="formulario registro-certificado hidden" id="formularioCertifcado">
+            <h2>Crear mi Certificado - Certificación</h2>
+            <form action="#" id="certificadoRegistro">
+
+                <div class="input">
+                    <span class="icono"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" id="name-certificado" oninput="convertirAMayusculas()" required />
+                    <label>Nombre</label>
+                </div>
+
+                <div class="input">
+                    <span class="icono"><ion-icon name="mail"></ion-icon></span>
+                    <input type="text" id="city-certificado" required oninput="convertirAMayusculas()" />
+                    <label>Ciudad</label>
+                </div>
+
+                <div class="input">
+                    <span class="icono"><ion-icon name="key"></ion-icon></span>
+                    <input type="email" id="email-certificado" required />
+                    <label>Email</label>
+                </div>
+
+                <div class="style">
+                    <p>Elige el estilo para tu certificado</p>
+                    <select name="styles" id="styles" required>
+                        <option value="style1" data-image="/img/Style_Certificado_1.jpg">1</option>
+                        <option value="style2" data-image="/img/Style_Certificado_2.jpg">2</option>
+                    </select>
+                </div>
+ n
+                <br>
+                <button type="submit" class="boton" onclick="certificar()">Crear Certificado</button>
+
+            </form>
+        </div>
+
+    </div>
+    <!-------------->
+
+    <!--Scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.66/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.66/vfs_fonts.js"></script>
+    <script src="js/js.js"></script>
+    <script src="js/acciones.js"></script>
+    <script src="js/certificado.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!----------->
+
+</body>
+<!------------------->
+
+</html>
+<!------------------>   

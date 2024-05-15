@@ -1,0 +1,83 @@
+<!--Estructura HTML-->
+<!DOCTYPE html>
+<html lang="es">
+
+<!--Datos Invicibles de la WEB-->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/cuenta.css" />
+    <link rel="stylesheet" href="css/funciones.css" />
+
+    <title> Pasos de Salvación</title>
+    <link rel="icon" href="/img/Logo_Web.png">
+</head>
+<!------------------------------>
+
+<!--Cuerpo de la WEB-->
+
+<body class="body">
+
+    <!--Navegador-->
+    <header class="header">
+        <div class="logo"><a href="index.html"><img src="img/Logo_Pasos_Navbar.png" alt="Logo" /></a></div>
+        <input type="checkbox" id="menu">
+        <label for="menu">
+            <img src="img/Logo Menu.png" class="menu-icono" alt="Menu" height="20px">
+        </label>
+        <div class="navbar">
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="7pasos.html">7 Pasos</a></li>
+                <li><a href="recursos.html">Recursos</a></li>
+                <li><a href="certificado.html">Certificado</a></li>
+                <li><button class="btnCuenta hidden" onclick="enviar('cuenta')">Cuenta</button></li>
+            </ul>
+        </div>
+    </header>
+    <!------------->
+
+    <!--Principal-->
+    <div class="cuenta activo-popup">
+
+        <div class="formulario registro">
+            <h2>Información</h2>
+            <form action="#" id="signupFormCuenta">
+                <div class="input">
+                    <span class="icono"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" id="user-cuenta" required />
+                    <label id="">Nombre</label>
+                </div>
+                <div class="input">
+                    <span class="icono"><ion-icon name="mail"></ion-icon></span>
+                    <input type="text" id="email-cuenta" required />
+                    <label id="">Email</label>
+                </div>
+                <div class="input">
+                    <span class="icono"><ion-icon name="key"></ion-icon></span>
+                    <input type="text" id="password-cuenta" required />
+                    <label id="">Contraseña</label>
+                </div>
+                <button type="button" class="boton" id="logout">Salir</button>
+            </form>
+        </div>
+
+    </div>
+    <!-------------->
+
+    <!--Scripts-->
+    <script src="js/js.js"></script>
+    <script src="js/acciones.js"></script>
+    <script src="js/cuenta.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!----------->
+
+</body>
+<!------------------->
+
+</html>
+<!------------------>
