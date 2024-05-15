@@ -1,0 +1,142 @@
+<!--Estructura HTML-5-->
+<!DOCTYPE html>
+<html lang="es">
+
+<!--Datos Invicibles de la Web-->
+
+<head>
+
+    <!--Metadatos-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!------------->
+
+    <!--Links-->
+    <link rel="stylesheet" href="/Paso-5/css/quiz.css">
+    <link rel="stylesheet" href="/css/funciones.css">
+    <link rel="icon" href="/img/Logo_Web.png">
+    <!--------->
+
+    <!--Otros-->
+    <title>Pasos de Salvación - Examen</title>
+    <!--------->
+
+</head>
+<!------------------------------->
+
+<!--Cuerpo de la Web-->
+
+<body>
+
+    <!--Navebador-->
+    <div class="navbar">
+        <div class="separador">
+            <div class="regresar" onclick="enviar('pasos.index')"><ion-icon name="arrow-back-circle"></ion-icon></div>
+            <div class="label" id="label">Paso 5</div>
+        </div>
+        <div class="cuenta">Iniciar Sección</div>
+    </div>
+    <!------------->
+
+    <!--Video de Estudio-->
+    <div id="videoContainer">
+        <iframe id="youtubeVideo" width="560" height="315"
+            src="https://www.youtube.com/embed/d_aaWBGopZk?si=ficvWnLC0L3H85wO" title="YouTube video player"
+            frameborder="0" allowfullscreen></iframe>
+    </div>
+    <!-------------------->
+
+    <!--Div para centrar Datos-->
+    <div class="fondo">
+
+        <div class="contenedor">
+
+            <!--Pregunta e Imagen de la WEB-->
+            <div class="encabezado">
+                <div class="flex">
+                    <!--Imagen Pregunta-->
+                    <img src="/img/Fondo_Cruz.webp" class="imagen" id="imagenPregunta">
+                    <!------------------->
+                    <div class="block">
+                        <div class="flex">
+                            <!--Boton para Pregunta Anterior-->
+                            <div class="btn" id="pregunta_Anterior" onclick="getPreguntaAnterior()">Pregunta Anterior
+                            </div>
+                            <!-------------------------------->
+                            <!--Boton para Pregunta Anterior-->
+                            <div class="btn-2" id="respaldo_Biblico">Respaldo Biblico</div>
+                            <!-------------------------------->
+                        </div>
+
+                        <!--Pregunta-->
+                        <div class="pregunta" id="pregunta">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis qui neque, perferendis
+                            et
+                            incidunt.
+                        </div>
+                        <!---------->
+
+                    </div>
+                </div>
+            </div>
+            <!------------------------------>
+
+            <!--Versiculos y Respuestas-->
+            <div class="texto">
+                <div class="block">
+                    <!--Boton para Cambiar Versiculos-->
+                    <div class="verse-new" onclick="changeCita()" id="verse-new">
+                        Cambiar Versiculo
+                    </div>
+                    <!--------------------------------->
+
+                    <div class="button" id="ocultarTexto">
+                        Ocultar Texto
+                    </div>
+
+                    <!--Cita Biblica-->
+                    <div class="cita-biblica" id="titulo_b">
+                        Lorem ipsum, dolor sit
+                    </div>
+                    <!---------------->
+
+                    <!--Versiculo-->
+                    <div class="verse" id="info_b">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius unde ad voluptates odit assumenda
+                        iste, aperiam, ab debitis repellendus nulla harum autem quae aut veritatis? Temporibus commodi
+                        rem
+                        veritatis architecto.
+                    </div>
+                    <!------------->
+
+
+                </div>
+            </div>
+            <!--------------------------->
+
+            <!--Respuestas-->
+            <div class="btns">
+                <div class="btn" id="btn1" onclick="oprimir_btn(0)">Respuesta 1</div>
+                <div class="btn" id="btn2" onclick="oprimir_btn(1)">Respuesta 2</div>
+                <div class="btn" id="btn3" onclick="oprimir_btn(2)">Respuesta 3</div>
+                <div class="btn" id="btn4" onclick="oprimir_btn(3)">Respuesta 4</div>
+            </div>
+            <!-------------->
+
+        </div>
+
+    </div>
+    <!--------------------------->
+
+    <!--Scripts-->
+    <script src="/Paso-5/js.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!------------>
+
+</body>
+<!------------------>
+
+</html>
+<!-------------------->
