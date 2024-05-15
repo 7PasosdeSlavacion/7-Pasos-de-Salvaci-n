@@ -1,0 +1,52 @@
+[
+    {
+        "categoria": "Paso 3",
+        "pregunta": "¿En quién debemos creer? ",
+        "respuesta": "EN JESÚS",
+        "incorecta_1": "EN UN AMIGO",    
+        "incorecta_2": "EN MI FAMILIA",
+        "imagen": "https://desdelafe.mx/wp-content/uploads/2023/09/Jesus-Emmanuel.jpg",
+        "object_fit": "cover",
+        "cita_biblica":"San Juan 11:25 (Reina Valera 1960)",
+        "info_cita":"Le dijo Jesús: Yo soy la resurrección y la vida; el que cree en mí, aunque esté muerto, vivirá."
+    },
+
+    {
+        "categoria": "Paso 3",
+        "pregunta": "¿En qué hecho también debemos creer?",
+        "respuesta": "JESÚS NOS RESCATA DEL PECADO",
+        "incorecta_1": "EN LAS PALABRAS DEL SER HUMANO",
+        "incorecta_2": "EN NADA",
+        "imagen": "https://images.squarespace-cdn.com/content/v1/62fbfbed423b4f1bb8caed31/15ded476-977d-456b-a283-0edc07c1a519/v2-5p8u9-rfofg.jpg",
+        "object_fit": "cover",
+        "cita_biblica":"San Marcos 10:45 (Reina – Valera 1960)",
+        "info_cita":"Porque el Hijo del Hombre no vino para ser servido, sino para servir, y para dar su vida en rescate por muchos."
+    },  
+
+    {
+        "categoria": "Paso 3",
+        "pregunta": "¿Qué hechos produjeron la muerte de Jesús?",
+        "respuesta": "SER RECONCILIADOS CON DIOS; TENER SABIDURÍA, JUSTIFICACIÓN, Y SANTIFICACIÓN",
+        "incorecta_1": "EN NADA",
+        "incorecta_2": "NO SE SABE",
+        "imagen": "https://churchofjesuschrist.org/imgs/6aa5ab65e3e8d1567a00c1b88ec8f37f59223b38/full/1280%2C/0/default",
+        "object_fit": "cover",
+        "cita_biblica":"1 Corintios 1:30 (Reina – Valera 1960) ",
+        "info_cita":"Mas por él estáis vosotros en Cristo Jesús, el cual nos ha sido hecho por Dios sabiduría, justificación, santificación y redención;",
+
+        "cita_biblica2":"2 Corintios 5:18 (Reina – Valera  1960)",
+        "info_cita2":"Y todo esto proviene de Dios, quien nos reconcilió consigo mismo por Cristo, y nos dio el ministerio de la reconciliación;"
+    },
+
+    {
+        "categoria": "Paso 2",
+        "pregunta": "¿Cuál fue la respuesta que dio el apóstol pablo? ",
+        "respuesta": "SOLO ALCANZA LA SALVACIÓN AQUEL QUE CREE EN JESÚS.",
+        "incorecta_1": "SOLO HAY QUE COMER",
+        "incorecta_2": "CANTAR",
+        "imagen": "https://cimientoyestandar.files.wordpress.com/2019/06/6082361_web1_bible.jpg?w=1200",
+        "object_fit": "cover",
+        "cita_biblica":"Hechos 16:31 (Reina – Valera 1960)",
+        "info_cita":"Ellos dijeron: Cree en el Señor Jesucristo, y serás salvo, tú y tu casa."
+    }
+]

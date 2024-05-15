@@ -1,0 +1,64 @@
+[
+    {
+        "categoria": "Paso 2",
+        "pregunta": "¿Cuál es el intruso que nos impide hacer lo bueno, actuar correctamente y nos hace sentir miserables?",
+        "respuesta": "EL PECADO",
+        "incorecta_1": "LA COMIDA",
+        "incorecta_2": "MI FAMILIA",
+        "imagen": "https://semperreformandaperu.files.wordpress.com/2017/04/manos-atadas-e1492079075688.jpg?w=1200",
+        "object_fit": "cover",
+        "cita_biblica":"Romanos 7: 19-21  (Reina – Valera 1960)",
+        "info_cita":"Porque no hago el bien que quiero, sino el mal que no quiero, eso hago. Y si hago lo que no quiero, ya no lo hago yo, sino el pecado que mora en mí. Así que, queriendo yo hacer el bien, hallo esta ley: que el mal está en mí. "
+    },
+
+    {
+        "categoria": "Paso 2",
+        "pregunta": "¿el pecado que reinaba en Pablo, reina en el resto de la humanidad?",
+        "respuesta": "CLARAMENTE SI",
+        "incorecta_1": "NO, SOLO EN EL",
+        "incorecta_2": "NO SE SABE",
+        "imagen": "https://www.eleconomista.com.mx/__export/1656619354303/sites/eleconomista/img/2022/06/30/universidades_p38_nueva_educacion_para_nueva_humanidad.png_554688468.png",
+        "object_fit": "cover",
+        "cita_biblica":"Romanos 3:9-18 (Reina - Valera 1960)",
+        "info_cita":"Como está escrito: No hay justo, ni aun uno; No hay quien entienda, No hay quien busque a Dios. Todos se desviaron, a una se hicieron inútiles; No hay quien haga lo bueno, no hay ni siquiera uno. Sepulcro abierto es su garganta; Con su lengua engañan. Veneno de áspides hay debajo de sus labios; Su boca está llena de maldición y de amargura.  Sus pies se apresuran para derramar sangre; Quebranto y desventura hay en sus caminos; Y no conocieron camino de paz. No hay temor de Dios delante de sus ojos.",
+        "cita_biblica2":"Romanos 5:12 (Reina - Valera 1960)",
+        "info_cita2":"Por tanto, como el pecado entró en el mundo por un hombre, y por el pecado la muerte, así la muerte pasó a todos los hombres, por cuanto todos pecaron."
+    },
+    {
+        "categoria": "Paso 2",
+        "pregunta": "¿Cómo presenta la biblia el pecado en la vida del ser humano?",
+        "respuesta": "ESCLAVIZA Y REINA SOBRE NOSOTROS",
+        "incorecta_1": "UN ARMA",
+        "incorecta_2": "UN AMIGO",
+        "imagen": "https://desdelafe.mx/wp-content/uploads/2019/08/leer-la-biblia.jpg",
+        "object_fit": "cover",
+        "cita_biblica":"San Juan 8:34 (Reina – Valera 1960) ",
+        "info_cita":" Jesús les respondió: De cierto, de cierto os digo, que todo aquel que hace pecado, esclavo es del pecado.",
+        "cita_biblica2":"Romanos 6:12 (Reina – Valera 1960) ",
+        "info_cita2":"No reine, pues, el pecado en vuestro cuerpo mortal, de modo que lo obedezcáis en sus concupiscencias;"
+    },
+    {
+        "categoria": "Paso 2",
+        "pregunta": "¿hacia cuáles dos cosas nos lleva nuestra condición pecaminosa?",
+        "respuesta": "NOS ALEJA DE DIOS y NOS MATA",
+        "incorecta_1": "LA VIDA ETERNA",
+        "incorecta_2": "UN BUEN FINAL",
+        "imagen": "https://lanuevafm.net/es/wp-content/uploads/2024/01/ascension-day-of-jesus-christ-or-resurrection-day-of-son-of-god-good-friday-ascension-day-concept-by-ai-generated-free-photo.jpg",
+        "object_fit": "cover",
+        "cita_biblica":"Romanos 3:23 (Reina – Valera 1960)",
+        "info_cita":" por cuanto todos pecaron, y están destituidos de la gloria de Dios,",
+        "cita_biblica2":"Romanos 6:23 (Reina Valera 1960) ",
+        "info_cita2":"Porque la paga del pecado es muerte, mas la dádiva de Dios es vida eterna en Cristo Jesús Señor nuestro."
+    },
+    {
+        "categoria": "Paso 2",
+        "pregunta": "¿Quién nos ayuda a ver mejor nuestra condición pecaminosa?",
+        "respuesta": "DIOS",
+        "incorecta_1": "MI MEJOR AMIGO",
+        "incorecta_2": "NADIE",
+        "imagen": "https://media.ambito.com/p/547c614a3a554465ade30f1d343cce9f/adjuntos/239/imagenes/040/871/0040871894/1200x675/smart/jesusjpg.jpg",
+        "object_fit": "cover",
+        "cita_biblica":"Isaías 6:5 (Reina – Valera 1960) ",
+        "info_cita":"Entonces dije: ¡Ay de mí ! Que soy muerto; porque siendo hombre inmundo de labios, y habitando en medio de pueblo que tiene labios inmundos, han visto mis ojos al Rey, Jehová de los ejércitos."
+    }
+]

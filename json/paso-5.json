@@ -1,0 +1,48 @@
+[
+    {
+        "categoria": "Paso 5",
+        "pregunta": "¿Qué cosa debemos hacer junto con el arrepentimiento, para que Dios perdone nuestros pecados? ",
+        "respuesta": "CONFESAR NUESTROS PECADOS",
+        "incorecta_1": "DORMIR",
+        "incorecta_2": "COMER",
+        "imagen": "https://jovenesdesanjose.org/wp-content/uploads/2015/01/confesion-600x450.jpg",
+        "object_fit": "cover",
+        "cita_biblica":"1 Juan 1:9 (Reina – Valera 1960) ",
+        "info_cita":"Si confesamos nuestros pecados, él es fiel y justo para perdonar nuestros pecados, y limpiarnos de toda maldad."
+    },
+
+    {
+        "categoria": "Paso 5",
+        "pregunta": "¿Qué le dijo el sabio Salomón al pueblo sobre la confesión? ",
+        "respuesta": "NO ENCUBRIR EL PECADO Y APARTARSE DE ELLOS",
+        "incorecta_1": "NO DECIR SU PECADO",
+        "incorecta_2": "NO SE SABE",
+        "imagen": "https://e625.com/sitio/wp-content/uploads/2021/01/biblia-1200x675.jpg",
+        "object_fit": "cover",
+        "cita_biblica":"Proverbios 28:13 (Reina - Valera 1960)",
+        "info_cita":"El que encubre sus pecados no prosperará; más el que los confiesa y se aparta alcanzará misericordia."
+    },
+
+    {
+        "categoria": "Paso 5",
+        "pregunta": "¿Por qué es importante la confesión?",
+        "respuesta": "PARA CONFIRMAR LA SALVACIÓN",
+        "incorecta_1": "PARA SABER MAS DE LA BBILIA",
+        "incorecta_2": "PORQUE SI",
+        "imagen": "https://www.elamanecer.org/wp-content/uploads/2015/01/Seguridad.jpg",
+        "object_fit": "cover",
+        "cita_biblica":"Romanos 10:10 (Reina – Valera 1960) ",
+        "info_cita":"Porque con el corazón se cree para justicia, pero con la boca se confiesa para salvación."
+    },
+    {
+        "categoria": "Paso 4",
+        "pregunta": "¿Qué puede sucederle a los que ocultan sus pecados y no los confiesan? ",
+        "respuesta": "ENVEJECER",
+        "incorecta_1": "NADA",
+        "incorecta_2": "MORIR",
+        "imagen": "https://www.clinicagouet.com/wp-content/uploads/2021/10/1.-Tristeza.jpg",
+        "object_fit": "cover",
+        "cita_biblica":"Salmos 32:3 (Reina – Valera 1960) ",
+        "info_cita":"Mientras callé, se envejecieron mis huesos en mi gemir todo el día."
+    }
+]

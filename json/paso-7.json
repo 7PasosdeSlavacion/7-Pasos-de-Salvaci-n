@@ -1,0 +1,59 @@
+[
+    {
+        "categoria": "Paso 7",
+        "pregunta": "¿Qué otra cosa hay que hacer después del bautismo?",
+        "respuesta": "UNIRME A SU IGLESIA",
+        "incorecta_1": "VISITAR A MI FAMILIA",
+        "incorecta_2": "COMER",
+        "imagen": "https://files.adventistas.org/noticias/es/2023/05/24130421/1-9.jpg",
+        "object_fit": "cover",
+        "cita_biblica":"Hechos 2:47 (Reina – Valera 1960)",
+        "info_cita":"alabando a Dios, y teniendo favor con todo el pueblo. Y el Señor añadía cada día a la iglesia los que habían de ser salvos."
+    },
+
+    {
+        "categoria": "Paso 7",
+        "pregunta": "¿Cuáles cosas hacían las personas que se unian a la iglesia por medio del bautismo?",
+        "respuesta": "PREDICAR, BAUTIZAR Y ENSEÑAR",
+        "incorecta_1": "COMER, DORMIR, CORRER",
+        "incorecta_2": "PREDICAR, CANTAR, ORAR",
+        "imagen": "https://img.freepik.com/foto-gratis/hombre-traje-formal-predicando-santa-biblia-tribuna-altar-iglesia_181624-27391.jpg?size=626&ext=jpg&ga=GA1.1.2082370165.1710806400&semt=sph",
+        "object_fit": "cover",
+        "cita_biblica":"San Mateo 28:19-20 (Reina Valera 1960)",
+        "info_cita":"Por tanto, id, y haced discípulos a todas las naciones, bautizándolos en el nombre del Padre, y del Hijo, y del Espíritu Santo; 20 enseñándoles que guarden todas las cosas que os he mandado; y he aquí yo estoy con vosotros todos los días, hasta el fin del mundo. Amén."
+    },
+
+    {
+        "categoria": "Paso 7",
+        "pregunta": "¿Cuáles cosas hacían las personas que se unian a la iglesia por medio del bautismo?",
+        "respuesta": "PERSEVERAR EN LA DOCTRINA. Participar de la COMUNIÓN. AYUDARSE ENTRE SI. PARTIR EL PAN. ",
+        "incorecta_1": "PERSEVERAR EN EL TRABAJO",
+        "incorecta_2": "DORMIR",
+        "imagen": "https://www.fcv.org/co/images/blog/2023/enero/asi-puedes-ayudar-a-una-persona-con-pensamientos-suicidas-1.webp",
+        "object_fit": "cover",
+        "cita_biblica":"Hechos 2:41-46 (Reina Valera 1960) ",
+        "info_cita":"Así que, los que recibieron su palabra fueron bautizados; y se añadieron aquel día como tres mil personas. Y perseveraban en la doctrina de los apóstoles, en la comunión unos con otros, en el partimiento del pan y en las oraciones. Y sobrevino temor a toda persona; y muchas maravillas y señales eran hechas por los apóstoles. Todos los que habían creído estaban juntos, y tenían en común todas las cosas;  y vendían sus propiedades y sus bienes, y lo repartían a todos según la necesidad de cada uno. Y perseverando unánimes cada día en el templo, y partiendo el pan en las casas, comían juntos con alegría y sencillez de corazón."
+    },
+    {
+        "categoria": "Paso 7",
+        "pregunta": "¿Cuáles son las características de la iglesia de Jesús? ",
+        "respuesta": "GUARDAN LOS MANDAMIENTOS Y TIENEN FE EN ÉL",
+        "incorecta_1": "TRABAJAN MUCHO",
+        "incorecta_2": "SON MUY GRANDES",
+        "imagen": "https://scontent.fbog3-1.fna.fbcdn.net/v/t31.18172-8/13235323_784774064956695_7356755242704501936_o.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFuGAHUuEpMQvOT-BxM7SQszzRSpIdwz1fPNFKkh3DPV-BwEe0YBHLnl4DcJjxdQ793yh_w0HjZNtucIDI3EJ0l&_nc_ohc=kwXs_85ZHd8AX_m1L7p&_nc_ht=scontent.fbog3-1.fna&oh=00_AfBYaaM9Dlhc8GY3tP9IKMfXGR4-WTCHQUW4vhmMtNbo9w&oe=662A0306",
+        "object_fit": "cover",
+        "cita_biblica":"Apocalipsis 12:17 (Reina Valera 1960)",
+        "info_cita":"Entonces el dragón se llenó de ira contra la mujer; y se fue a hacer guerra contra el resto de la descendencia de ella, los que guardan los mandamientos de Dios y tienen el testimonio de Jesucristo."
+    },
+    {
+        "categoria": "Paso 7",
+        "pregunta": "¿Cuál es el testimonio de Jesús?",
+        "respuesta": "EL ESPÍRITU DE LA PROFECÍA",
+        "incorecta_1": "LOS HUMANOS",
+        "incorecta_2": "LA CRUZ",
+        "imagen": "https://iadpa.org/cdn/shop/products/Conflictodelossigosmisionero.jpg?v=1708706231",
+        "object_fit": "cover",
+        "cita_biblica":"Apocalipsis 19:10 (Reina – Valera 1960) ",
+        "info_cita":"Yo me postré a sus pies para adorarle. Y él me dijo: Mira, no lo hagas; yo soy consiervo tuyo, y de tus hermanos que retienen el testimonio de Jesús. Adora a Dios; porque el testimonio de Jesús es el espíritu de la profecía."
+    }
+]

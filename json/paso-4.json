@@ -1,0 +1,70 @@
+[
+    {
+        "categoria": "Paso 4",
+        "pregunta": "¿Cuál fue la respuesta del apóstol pedro a la multitud?",
+        "respuesta": "ARREPENTÍOS",
+        "incorecta_1": "REGRESEN A SUS CASAS",
+        "incorecta_2": "COMAN",
+        "imagen": "https://iglesiaalianzacarcelen.files.wordpress.com/2011/05/predicador.jpg",
+        "object_fit": "cover",
+        "cita_biblica":"Hechos 2:37-38 (Reina – Valera 1960)",
+        "info_cita":"Al oír esto, se compungieron de corazón, y dijeron a Pedro y a los otros apóstoles: Varones hermanos, ¿qué haremos? Pedro les dijo: Arrepentíos, y bautícese cada uno de vosotros en el nombre de Jesucristo para perdón de los pecados; y recibiréis el don del Espíritu Santo. "
+    },
+
+    {
+        "categoria": "Paso 4",
+        "pregunta": "¿Quién nos ayuda a arrepentirnos?",
+        "respuesta": "EL ESPÍRITU SANTO",
+        "incorecta_1": "UN AMIGO",
+        "incorecta_2": "MIS PADRES",
+        "imagen": "https://centralldm.es/wp-content/uploads/2021/10/610-dc-65-prayer.jpg",
+        "object_fit": "cover",
+        "cita_biblica":"Romanos 2:4 (Reina - Valera 1960)",
+        "info_cita":"¿O menosprecias las riquezas de su benignidad, paciencia y longanimidad, ignorando que su benignidad te guía al arrepentimiento?"
+    },
+
+    {
+        "categoria": "Paso 4",
+        "pregunta": "¿Cuál es el mandato que Dios hace a la humanidad? ",
+        "respuesta": "QUE TODOS SE ARREPIENTAN",
+        "incorecta_1": "MADRUGAR",
+        "incorecta_2": "TRABAJAR",
+        "imagen": "https://www.elfinanciero.com.mx/resizer/QXnQvCS2IvOJiwSo5x-FWrFh9RA=/1440x810/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/SW5IAEELZJGO3C6DM56H5763OE.jpeg",
+        "object_fit": "cover",
+        "cita_biblica":"Hechos 17:30 (Reina – Valera 1960)",
+        "info_cita":"Pero Dios, habiendo pasado por alto los tiempos de esta ignorancia, ahora manda a todos los hombres en todo lugar, que se arrepientan;"
+    },
+    {
+        "categoria": "Paso 4",
+        "pregunta": "¿Cuál es el arrepentimiento verdadero?",
+        "respuesta": "EL QUE DA FRUTOS",
+        "incorecta_1": "EL MAS GRANDE",
+        "incorecta_2": "EL QUE NACE",
+        "imagen": "https://www.elamanecer.org/wp-content/uploads/2015/01/prostrated-1260x933.jpg",
+        "object_fit": "cover",
+        "cita_biblica":"San Mateo 3:8 (Reina – Valera 1960)",
+        "info_cita":"Haced, pues, frutos dignos de arrepentimiento,"
+    },
+    {
+        "categoria": "Paso 4",
+        "pregunta": "¿Cuáles dos cosas recibimos al arrepentirnos? ",
+        "respuesta": "PERDÓN Y ESPÍRITU SANTO",
+        "incorecta_1": "MUCHA COMIDA",
+        "incorecta_2": "AMOR Y FE",
+        "imagen": "https://www.magisnet.com/wp-content/uploads/2023/11/Perdo%CC%81n-web.jpg",
+        "object_fit": "cover",
+        "cita_biblica":"Hechos 2:38 (Reina – Valera 1960) ",
+        "info_cita":" Pedro les dijo: Arrepentíos, y bautícese cada uno de vosotros en el nombre de Jesucristo para perdón de los pecados; y recibiréis el don del Espíritu Santo."
+    },
+    {
+        "categoria": "Paso 4",
+        "pregunta": "¿Qué es lo que realmente Dios quiere?",
+        "respuesta": "QUE TODOS PROCEDAMOS AL ARREPENTIMIENTO",
+        "incorecta_1": "QUE TRABAJEMOS MUCHO",
+        "incorecta_2": "QUE SEAMOS MUY FUERTES",
+        "imagen": "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2023/08/dios-inteligencia-artificial-3111518.jpg?tf=1200x",
+        "object_fit": "cover",
+        "cita_biblica":"2 Pedro 3:9 (Reina – Valera 1960)",
+        "info_cita":" El Señor no retarda su promesa, según algunos la tienen por tardanza, sino que es paciente para con nosotros, no queriendo que ninguno perezca, sino que todos procedan al arrepentimiento."
+    }
+]

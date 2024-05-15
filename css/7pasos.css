@@ -1,0 +1,120 @@
+.inicio {
+  position: relative;
+  width: 48%;
+  height: 550px;
+  background: transparent;
+  border: 2px solid rgba(238, 225, 219, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  display: block;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transform: scale(0);
+  transition: transform 0.5s ease, height 0.2s ease;
+}
+
+.separador {
+  display: block;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.img {
+  display: block;
+}
+
+.inicio .separador img {
+  width: 430px;
+  height: 300px;
+  padding-right: 10px;
+  border-radius: 20px;
+}
+
+.inicio button {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  padding-right: 10px;
+  padding-top: 0px;
+  cursor: pointer;
+}
+
+.make-exam {
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 4px;
+  border-radius: 10px;
+  animation: parpadeo 1s infinite;
+
+}
+
+.make-exam:hover {
+  cursor: pointer;
+  padding: 0 50px;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  margin-left: 0;
+}
+
+ion-icon:hover{
+  padding: 0px 40px;
+}
+
+@keyframes parpadeo {
+  0% { opacity: 1; }
+  50% { opacity: .3; }
+  100% { opacity: 1; }
+}
+
+@media (max-width: 800px) {
+
+.img{
+  display: block;
+}
+
+  .separador {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .inicio .separador img {
+    width: 200px;
+    height: 150px;
+    padding-right: 0;
+    align-items: center;
+  }
+  .inicio button {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 0;
+    cursor: pointer;
+  }
+  .inicio {
+    display: block;
+    width: 70%;
+    height: 500px;
+  }
+  .flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    margin-left: 0;
+  }
+}

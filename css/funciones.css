@@ -1,0 +1,20 @@
+.activo-popup{
+    transform: scale(1);
+}
+
+.ocultar{
+    display: none;
+}
+
+.active{
+    display: flex;
+    transition: display 0.5s ease;
+}
+
+.desactivo{
+    display: none;
+}
+
+.hidden{
+    display: none;
+}
