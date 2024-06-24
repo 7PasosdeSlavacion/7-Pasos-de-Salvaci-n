@@ -22,15 +22,15 @@ function enviar(id) {
             break;
 
         case 'login':
-            window.location = '/index.html'
+            window.location = 'index.html'
             break;
 
         case 'cuenta':
-            window.location = '/cuenta.html'
+            window.location = 'cuenta.html'
             break;
 
         default:
-            window.location.href = '/error.html'
+            window.location.href = 'error.html'
             break;
     }
 }
