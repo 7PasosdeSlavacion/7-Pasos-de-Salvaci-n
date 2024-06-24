@@ -14,16 +14,16 @@ if (user) {
 
 function getRevisar() {
   if (cuenta.classList.contains("existe")) {
-    window.location.href = "/cuenta.html";
+    window.location.href = "cuenta.html";
   } else {
-    window.location.href = "/index.html";
+    window.location.href = "index.html";
   }
 }
 
 function enviar(id) {
   switch (id) {
     case "pasos.index":
-      window.location = "/7pasos.html";
+      window.location = "7pasos.html";
       break;
     case "google":
       var url = "https://www.google.com";
@@ -46,7 +46,7 @@ document.getElementById("ocultarTexto").addEventListener("click", function () {
 /**Funciones de Preguntas */
 
 /**Variables (Lets) */
-let base_preguntas = readText("/json/paso-1.json");
+let base_preguntas = readText("json/paso-1.json");
 let interprete_bp = JSON.parse(base_preguntas);
 let pregunta;
 let btn_correspondiente = [
@@ -98,7 +98,7 @@ function getPreguntasExisten() {
     preguntaIndex++;
   } else {
     setTimeout(() => {
-      var url = "/Paso-1/html/desicion.html";
+      var url = "Paso-1/html/desicion.html";
       window.location.href = url;
     }, 1000);
   }
@@ -269,7 +269,7 @@ function mostrarAlerta() {
   if (!checkbox.checked) {
     alerta.style.display = "block";
   } else {
-    window.location = "/Paso-1/html/reflexion.html";
+    window.location = "Paso-1/html/reflexion.html";
   }
 }
 
@@ -303,3 +303,9 @@ function guardarPasoCompleto() {
   // Guardar el paso completo en el localStorage
   localStorage.setItem("pasoUno", "true");
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+  var base_url = document.createElement('base');
+  base_url.href = 'https://7pasosdeslavacion.github.io/7-Pasos-de-Salvaci-n/';
+  document.head.appendChild(base_url);
+});
