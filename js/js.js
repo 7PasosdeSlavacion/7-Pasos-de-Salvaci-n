@@ -33,6 +33,6 @@ btnCuenta.addEventListener('click', () => {
 
 document.addEventListener("DOMContentLoaded", function() {
     var base_url = document.createElement('base');
-    base_url.href = 'http://127.0.0.1:5500/';
+    base_url.href = 'https://7pasosdeslavacion.github.io/';
     document.head.appendChild(base_url);
 });
