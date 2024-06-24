@@ -26,10 +26,10 @@
 }
 .inicio .separador h1,
 p {
-  color: rgb(23, 12, 20);
+  color: rgb(44, 12, 4);
 }
 .inicio .separador p {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 @media (max-width: 800px) {
@@ -42,5 +42,8 @@ p {
 
   .inicio .separador img {
     width: 200px;
+  }
+  .inicio .separador p {
+    font-size: 20px;
   }
 }

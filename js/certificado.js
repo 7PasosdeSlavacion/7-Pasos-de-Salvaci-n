@@ -6,6 +6,8 @@ function certificar() {
   const correo = document.getElementById("email-certificado").value;
   const style = document.getElementById("styles").value;
 
+if (nombre != "" && lugar != "" && correo != "") {
+
   if (style == "style1") {
     const docDefinition = {
       pageSize: {
@@ -301,6 +303,10 @@ function certificar() {
     const pdfDoc = pdfMake.createPdf(docDefinition);
     pdfDoc.download("Certificado.pdf");
   }
+
+} else {
+  alert("Campon Vacios")
+}
 }
 
 function convertirAMayusculas() {
@@ -331,4 +337,26 @@ selectElement.addEventListener("change", function () {
 
 selectElement.dispatchEvent(new Event("change"));
 
+/**Buscar Informacion par aCertificado */
+document.addEventListener("DOMContentLoaded", function() {
+  const userJSON = localStorage.getItem("login_success");
+  
+  if (userJSON) {
+      const user = JSON.parse(userJSON);
 
+      if (user.name && user.email && user.password) {
+          const name = user.name;
+          const email = user.email;
+          const pass = user.password;
+
+          const nameField = document.querySelector('#name-certificado').value = name;
+          const emailField = document.querySelector('#email-certificado').value = email;
+         /* const passwordField = document.querySelector('#password-cuenta').value = pass;*/
+
+      } else {
+          console.error("Los datos del usuario en el almacenamiento local están incompletos.");
+      }
+  } else {
+      console.error("No se encontraron datos de usuario en el almacenamiento local.");
+  }
+});

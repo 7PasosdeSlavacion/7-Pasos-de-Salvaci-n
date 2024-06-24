@@ -25,6 +25,14 @@ btnCloseLogin.addEventListener('click', () => {
 });
 /**------------- */
 
-btnCuenta.addEventListener('click', ()=>{
-   window.location = "/cuenta.html";
+btnCuenta.addEventListener('click', () => {
+    window.location = "/cuenta.html";
+});
+
+/**Base Url */
+
+document.addEventListener("DOMContentLoaded", function() {
+    var base_url = document.createElement('base');
+    base_url.href = 'http://127.0.0.1:5500/';
+    document.head.appendChild(base_url);
 });

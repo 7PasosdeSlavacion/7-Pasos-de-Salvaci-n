@@ -15,7 +15,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: url("/img/Fondo_Jesus_2.jpg") no-repeat;
+  background: url("https://lanoticia.com/wp-content/uploads/2023/06/dios-jesus-o-jesucristo-cual-es-la-diferencia-scaled-e1687450325994.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -136,7 +136,7 @@ header .navbar ul li button:hover {
 
 .login h2 {
   font-size: 35px;
-  color: rgb(39, 6, 3);
+  color: rgb(255, 255, 255);
   text-align: center;
 }
 
@@ -170,7 +170,7 @@ header .navbar ul li button:hover {
   border: 0;
   outline: none;
   font-size: 13px;
-  color: rgb(48, 2, 2);
+  color: rgb(231, 183, 24);
   padding: 0 35px 0 5px;
 }
 
