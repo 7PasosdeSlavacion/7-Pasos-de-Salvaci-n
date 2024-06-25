@@ -22,15 +22,15 @@ function enviar(id) {
             break;
 
         case 'login':
-            window.location = 'https://7pasosdeslavacion.github.io/7-Pasos-de-Salvaci-n/index.html'
+            window.location = 'index.html'
             break;
 
         case 'cuenta':
-            window.location = 'https://7pasosdeslavacion.github.io/7-Pasos-de-Salvaci-n/cuenta.html'
+            window.location = 'cuenta.html'
             break;
 
         default:
-            window.location.href = 'https://7pasosdeslavacion.github.io/7-Pasos-de-Salvaci-n/error.html'
+            window.location.href = 'error.html'
             break;
     }
 }

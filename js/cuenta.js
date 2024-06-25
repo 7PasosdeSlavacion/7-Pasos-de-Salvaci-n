@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     } else {
         console.error("No se encontraron datos de usuario en el almacenamiento local.");
-        window.location.href = 'index.html';
+        window.location.href = '/index.html';
     }
 });
 
@@ -26,5 +26,5 @@ const logout = document.querySelector("#logout");
 logout.addEventListener("click", () => {
   alert("Hasta Pronto!");
   localStorage.removeItem("login_success");
-  window.location.href = "index.html";
+  window.location.href = "/index.html";
 });
