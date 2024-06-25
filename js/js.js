@@ -26,7 +26,7 @@ btnCloseLogin.addEventListener('click', () => {
 /**------------- */
 
 btnCuenta.addEventListener('click', () => {
-    window.location = "/cuenta.html";
+    window.location = "cuenta.html";
 });
 
 /**Base Url */
