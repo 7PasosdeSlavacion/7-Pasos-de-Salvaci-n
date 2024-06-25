@@ -215,13 +215,14 @@ function readText(ruta_local) {
 
 /**Scripts para Video de Ayuda */
 const videoContainer = document.getElementById("videoContainer");
+const draggableArea = videoContainer.querySelector(".draggable-area");
 
 let isDragging = false;
 let offsetX, offsetY;
 
 document.addEventListener("DOMContentLoaded", function () {
-  videoContainer.addEventListener("mousedown", startDragging);
-  videoContainer.addEventListener("touchstart", startDragging);
+  draggableArea.addEventListener("mousedown", startDragging);
+  draggableArea.addEventListener("touchstart", startDragging, { passive: false });
   document.addEventListener("mouseup", stopDragging);
   document.addEventListener("touchend", stopDragging);
 });
@@ -233,8 +234,8 @@ function startDragging(e) {
   offsetX = touch.clientX - videoContainer.offsetLeft;
   offsetY = touch.clientY - videoContainer.offsetTop;
 
-  document.addEventListener("mousemove", drag);
-  document.addEventListener("touchmove", drag);
+  document.addEventListener("mousemove", drag, { passive: false });
+  document.addEventListener("touchmove", drag, { passive: false });
 }
 
 function stopDragging() {
@@ -249,10 +250,8 @@ function drag(e) {
     const touch = e.type === "touchmove" ? e.touches[0] : e;
     const newX = touch.clientX - offsetX;
     const newY = touch.clientY - offsetY;
-    const maxX =
-      document.documentElement.clientWidth - videoContainer.offsetWidth;
-    const maxY =
-      document.documentElement.clientHeight - videoContainer.offsetHeight;
+    const maxX = document.documentElement.clientWidth - videoContainer.offsetWidth;
+    const maxY = document.documentElement.clientHeight - videoContainer.offsetHeight;
     const newLeft = Math.min(maxX, Math.max(0, newX));
     const newTop = Math.min(maxY, Math.max(0, newY));
     videoContainer.style.left = newLeft + "px";
@@ -304,7 +303,7 @@ function guardarPasoCompleto() {
   localStorage.setItem("pasoUno", "true");
 }
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   var base_url = document.createElement('base');
   base_url.href = 'https://7pasosdeslavacion.github.io/7-Pasos-de-Salvaci-n/';
   document.head.appendChild(base_url);
