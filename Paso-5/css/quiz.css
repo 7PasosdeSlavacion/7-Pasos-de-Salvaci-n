@@ -259,6 +259,12 @@ body {
     height: 200px;
   }
 
+  .draggable-area {
+    position: absolute;
+    width: 150px;
+    height: 180px;
+  }
+
   .fondo .btns {
     display: block;
     justify-content: center;
