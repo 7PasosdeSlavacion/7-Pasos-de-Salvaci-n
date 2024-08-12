@@ -152,8 +152,12 @@ function certificar() {
               }*/
       };
 
+
+  const timestamp = new Date().getTime();
+  const filename = `Certificado_${timestamp}.pdf`;
+
       const pdfDoc = pdfMake.createPdf(docDefinition);
-      pdfDoc.download("Certificado.pdf");
+      pdfDoc.download(filename);
     }
 
     if (style == "style2") {
@@ -300,8 +304,12 @@ function certificar() {
               }*/
       };
 
+
+  const timestamp = new Date().getTime();
+  const filename = `Certificado_${timestamp}.pdf`;
       const pdfDoc = pdfMake.createPdf(docDefinition);
-      pdfDoc.download("Certificado.pdf");
+      pdfDoc.download(filename);
+
     }
 
   } else {
