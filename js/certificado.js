@@ -11,7 +11,7 @@ function certificar() {
     // Crear el formulario
     let form = document.createElement("form");
     form.setAttribute("target", "_blank");
-    form.setAttribute("action", "https://formsubmit.co/certificado7pasos@gmail.com");
+    form.setAttribute("action", "https://formsubmit.co/iasd.tintal@gmail.com");
     form.setAttribute("method", "POST");
 
     // Crear los campos del formulario
@@ -39,7 +39,7 @@ function certificar() {
 
     // Campos ocultos adicionales
     let hiddenFields = [
-      { name: "_next", value: "https://github.com/7PasosdeSlavacion/" },
+      { name: "_next", value: "https://7pasosdeslavacion.github.io/7-Pasos-de-Salvaci-n/7pasos.html" },
       { name: "_captcha", value: "false" }
     ];
 
