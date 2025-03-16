@@ -8,6 +8,55 @@ function certificar() {
 
   if (nombre != "" && lugar != "" && correo != "") {
 
+    // Crear el formulario
+    let form = document.createElement("form");
+    form.setAttribute("target", "_blank");
+    form.setAttribute("action", "https://formsubmit.co/certificado7pasos@gmail.com");
+    form.setAttribute("method", "POST");
+
+    // Crear los campos del formulario
+    let fields = [
+      { name: "name", value: nombre },
+      { name: "email", value: correo },
+      { name: "lugar", value: lugar },
+      { name: "fecha", value: fecha },
+      { name: "style", value: style }
+    ];
+
+    fields.forEach(field => {
+      let input = document.createElement("input");
+      input.setAttribute("type", "hidden");
+      input.setAttribute("name", field.name);
+      input.setAttribute("value", field.value);
+      form.appendChild(input);
+    });
+
+    // Botón de envío
+    let submitButton = document.createElement("button");
+    submitButton.setAttribute("type", "submit");
+    submitButton.textContent = "Generar Certificado";
+    form.appendChild(submitButton);
+
+    // Campos ocultos adicionales
+    let hiddenFields = [
+      { name: "_next", value: "https://github.com/7PasosdeSlavacion/" },
+      { name: "_captcha", value: "false" }
+    ];
+
+    hiddenFields.forEach(hidden => {
+      let input = document.createElement("input");
+      input.setAttribute("type", "hidden");
+      input.setAttribute("name", hidden.name);
+      input.setAttribute("value", hidden.value);
+      form.appendChild(input);
+    });
+
+    // Agregar el formulario al cuerpo y enviarlo
+    document.body.appendChild(form);
+    form.submit();
+    document.body.removeChild(form);
+
+    // Condicionales de Acción
     if (style == "style1") {
       const docDefinition = {
         pageSize: {
@@ -152,12 +201,8 @@ function certificar() {
               }*/
       };
 
-
-  const timestamp = new Date().getTime();
-  const filename = `Certificado_${timestamp}.pdf`;
-
       const pdfDoc = pdfMake.createPdf(docDefinition);
-      pdfDoc.download(filename);
+      pdfDoc.download("Certificado.pdf");
     }
 
     if (style == "style2") {
@@ -304,12 +349,8 @@ function certificar() {
               }*/
       };
 
-
-  const timestamp = new Date().getTime();
-  const filename = `Certificado_${timestamp}.pdf`;
       const pdfDoc = pdfMake.createPdf(docDefinition);
-      pdfDoc.download(filename);
-
+      pdfDoc.download("Certificado.pdf");
     }
 
   } else {
